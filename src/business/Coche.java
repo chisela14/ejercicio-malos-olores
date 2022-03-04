@@ -1,7 +1,7 @@
 package business;
 /**
  * Clase Coche con herencia de Vehiculo
- * @author Chisela Marien Colas Gil
+ * @author Jorge Rodriguez
  *
  */
 public class Coche extends Vehiculo {

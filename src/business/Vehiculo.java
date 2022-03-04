@@ -1,8 +1,8 @@
 package business;
 
 /**
- * Superclase Vehiculo
- * @author Chisela Marien Colas Gil
+ * Superclase Vehículo
+ * @author Jorge Rodríguez
  *
  */
 public class Vehiculo {

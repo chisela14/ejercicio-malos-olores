@@ -13,7 +13,7 @@ import utils.Utils;
 
 /**
  * Clase principal de nuestro programa
- * @author Chisela Marien Colas Gil
+ * @author Jorge Rodriguez
  *
  */
 public class MenuApp {

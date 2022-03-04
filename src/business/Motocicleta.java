@@ -2,7 +2,7 @@ package business;
 
 /**
  * Clase Motocicleta con herencia de Vehiculo
- * @author Chisela Marien Colas Gil
+ * @author Jorge Rodriguez
  *
  */
 public class Motocicleta extends Vehiculo {

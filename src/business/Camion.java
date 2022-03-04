@@ -2,7 +2,7 @@ package business;
 
 /**
  * Clase Camion con herencia de Vehiculo
- * @author Chisela Marien Colas Gil
+ * @author Jorge Rodriguez
  *
  */
 public class Camion extends Vehiculo {
