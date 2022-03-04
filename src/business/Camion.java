@@ -13,14 +13,14 @@ public class Camion extends Vehiculo {
 	private String tipoCarnet;
 	
 	/**
-	 * Constructor vacio
+	 * Constructor vacío
 	 */
 	public Camion() {
 		super();
 	}
 	
 	/**
-	 * Metodo para obtener el atributo TipoCarnet
+	 * Método para obtener el atributo TipoCarnet
 	 * @return TipoCarnet
 	 */
 	public String getTipoCarnet() {
@@ -28,7 +28,7 @@ public class Camion extends Vehiculo {
 	}
 
 	/**
-	 * metodo para establecer el atributo
+	 * Método para establecer el atributo
 	 * @param tipoCarnet
 	 */
 	public void setTipoCarnet(String tipoCarnet) {
@@ -36,7 +36,7 @@ public class Camion extends Vehiculo {
 	}
 	
 	/**
-	 * Metodo en proceso que no devuelve nada, de momento muestra un mensaje
+	 * Método en proceso que no devuelve nada, de momento muestra un mensaje
 	 * @param velocidad
 	 */
 	public void acelerarCamion(Integer velocidad) {
@@ -47,14 +47,14 @@ public class Camion extends Vehiculo {
 	}
 	
 	/**
-	 * Metodo que muestra un mensaje al detener el camion
+	 * Método que muestra un mensaje al detener el camion
 	 */
 	public void detenerCamion() {
 		System.out.println("CUIDADO!! La detenci�n de un veh�culo de gran tama�o puede ocasionar accidentes de tr�fico");
 	}
 	
 	/**
-	 * Metodo toString de la clase Camion
+	 * Método toString de la clase Camion
 	 */
 	@Override
 	public String toString() {

@@ -13,13 +13,13 @@ public class Motocicleta extends Vehiculo {
 	private Integer cilindrada;
 	
 	/**
-	 * Constructor vacio
+	 * Constructor vacío
 	 */
 	public Motocicleta() {
 		super();
 	}
 	/**
-	 * Metodo para obtener el atributo cilindrada
+	 * Método para obtener el atributo cilindrada
 	 * @return cilindrada
 	 */
 	public Integer getCilindrada() {
@@ -27,7 +27,7 @@ public class Motocicleta extends Vehiculo {
 	}
 	
 	/**
-	 * Metodo para establecer la cilindrada
+	 * Método para establecer la cilindrada
 	 * @param cilindrada
 	 */
 	public void setCilindrada(Integer cilindrada) {
@@ -35,7 +35,7 @@ public class Motocicleta extends Vehiculo {
 	}
 
 	/**
-	 * Metodo pendiente por desarrollar para acelerar una motocicleta
+	 * Método pendiente por desarrollar para acelerar una motocicleta
 	 * @param velocidad
 	 */
 	public void acelerarMoto(Integer velocidad) {
@@ -43,7 +43,7 @@ public class Motocicleta extends Vehiculo {
 	}
 	
 	/**
-	 * Metodo pendiente por desarrollar para detener una motocicleta
+	 * Método pendiente por desarrollar para detener una motocicleta
 	 * @param velocidad
 	 */
 	public void detenerMoto() {
@@ -51,7 +51,7 @@ public class Motocicleta extends Vehiculo {
 	}
 
 	/**
-	 * Metodo toString de la clase Motocicleta 
+	 * Método toString de la clase Motocicleta 
 	 */
 	@Override
 	public String toString() {

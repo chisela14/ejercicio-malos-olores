@@ -32,7 +32,7 @@ public class Vehiculo {
 	}
 	
 	/**
-	 * Metodo para establecer el atributo matricula
+	 * Método para establecer el atributo matricula
 	 * @return matricula
 	 */
 	public void setMatricula(String matricula) {
@@ -40,14 +40,15 @@ public class Vehiculo {
 	}
 	
 	/**
-	 * Metodo para obtener el atributo color
+	 * Método para obtener el atributo color
 	 * @return color
 	 */
 	public String getColor() {
 		return color;
 	}
+	
 	/**
-	 * Metodo para establecer el atributo color
+	 * Método para establecer el atributo color
 	 * @return color
 	 */
 	public void setColor(String color) {
@@ -55,7 +56,7 @@ public class Vehiculo {
 	}
 
 	/**
-	 * Metodo para obtener el atributo combustible
+	 * Método para obtener el atributo combustible
 	 * @return combustible
 	 */
 	public String getCombustible() {
@@ -63,7 +64,7 @@ public class Vehiculo {
 	}
 
 	/**
-	 * Metodo para establecer el atributo combustible
+	 * Método para establecer el atributo combustible
 	 * @return combustible
 	 */
 	public void setCombustible(String combustible) {
@@ -71,7 +72,7 @@ public class Vehiculo {
 	}
 	
 	/**
-	 * Metodo para obtener el atributo conductor
+	 * Método para obtener el atributo conductor
 	 * @return nombreConductor
 	 */
 	public String getNombreConductor() {
@@ -79,7 +80,7 @@ public class Vehiculo {
 	}
 	
 	/**
-	 * Metodo para establecer el atributo conductor
+	 * Método para establecer el atributo conductor
 	 * @return nombreConductor
 	 */
 	public void setNombreConductor(String nombreConductor) {
@@ -87,7 +88,7 @@ public class Vehiculo {
 	}
 
 	/**
-	 * Metodo para obtener el atributo dni
+	 * Método para obtener el atributo dni
 	 * @return dniConductor
 	 */
 	public String getDniConductor() {
@@ -95,14 +96,14 @@ public class Vehiculo {
 	}
 
 	/**
-	 * Metodo para establecer el atributo dni
+	 * Método para establecer el atributo dni
 	 * @return dniConductor
 	 */
 	public void setDniConductor(String dniConductor) {
 		this.dniConductor = dniConductor;
 	}
 	/**
-	 * Metodo toString de la clase Vehiculo
+	 * Método toString de la clase Vehiculo
 	 */
 	@Override
 	public String toString() {

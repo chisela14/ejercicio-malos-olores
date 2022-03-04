@@ -12,14 +12,14 @@ public class Coche extends Vehiculo {
 	private Integer numPlazas;
 	
 	/**
-	 * Constructor vacio
+	 * Constructor vacío
 	 */
 	public Coche() {
 		super();
 	}
 	
 	/**
-	 * Metodo para obtener el atributo numPlazas
+	 * Método para obtener el atributo numPlazas
 	 * @return numPlazas
 	 */
 	public Integer getnumPlazas() {
@@ -27,7 +27,7 @@ public class Coche extends Vehiculo {
 	}
 
 	/**
-	 * metodo para establecer el atributo
+	 * Método para establecer el atributo
 	 * @param numPlazas
 	 */
 	public void setnumPlazas(Integer numPlazas) {
@@ -35,7 +35,7 @@ public class Coche extends Vehiculo {
 	}
 
 	/**
-	 * Metodo para acelerar un coche
+	 * Método para acelerar un coche
 	 * @param velocidad
 	 */
 	public void acelerarCoche(Integer velocidad) {
@@ -47,14 +47,14 @@ public class Coche extends Vehiculo {
 	}
 	
 	/**
-	 * Metodo que muestra un mensaje al detener el coche
+	 * Método que muestra un mensaje al detener el coche
 	 */
 	public void detenerCoche() {
 		System.out.println("El coche se detendr� en breve, aseg�rese de buscar un lugar adecuado para estacionar");
 	}
 
 	/**
-	 * Metodo toString de la clase Coche
+	 * Método toString de la clase Coche
 	 */
 	@Override
 	public String toString() {

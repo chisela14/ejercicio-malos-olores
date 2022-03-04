@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * Clase con herramientas para el programa principal
+ * Clase con funciones de cálculo (fechas y precios) para el programa principal
  * @author Jorge Rodríguez
  *
  */
@@ -35,8 +35,8 @@ public class Utils {
 	}
 	
 	/**
-	 * Método para calcular el precio del alquiler por dia
-	 * @param dias cantidad de dias a calcular
+	 * Método para calcular el precio del alquiler segun los dias
+	 * @param dias cantidad de días a calcular
 	 * @return result 
 	 */
 	public static float calcularPrecioAlquilerDia (Integer dias) {
@@ -47,7 +47,7 @@ public class Utils {
 	}
 	
 	/**
-	 * Método para calcular el precio por mes
+	 * Método para calcular el precio según los meses
 	 * @param meses cantidad de meses a calcular
 	 * @return precio total
 	 */

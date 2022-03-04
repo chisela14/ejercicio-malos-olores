@@ -19,7 +19,7 @@ import utils.Utils;
 public class MenuApp {
 
 	/**
-	 * Metodo principal de la clase
+	 * Método principal de la clase
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -53,7 +53,7 @@ public class MenuApp {
 	}
 
 	/**
-	 * metodo para modificar la lista de camiones (arrancarlos)
+	 * Método para modificar la lista de camiones (arrancarlos)
 	 * @param numCamiones
 	 * @param listaCamiones
 	 */
@@ -65,7 +65,7 @@ public class MenuApp {
 	}
 
 	/**
-	 * metodo para modificar la lista de coches (arrancarlos)
+	 * Método para modificar la lista de coches (arrancarlos)
 	 * @param numCamiones
 	 * @param listaCamiones
 	 */
@@ -77,7 +77,7 @@ public class MenuApp {
 	}
 
 	/**
-	 * metodo para mostrar un mensaje de bienvenida
+	 * Método para mostrar un mensaje de bienvenida
 	 * @param nombre
 	 * @param primerApellido
 	 */
@@ -92,7 +92,7 @@ public class MenuApp {
 	}
 	
 	/**
-	 * metodo para mostrar un mensaje de presentacion
+	 * Método para mostrar un mensaje de presentacion
 	 * @param nombre
 	 * @param primerApellido
 	 */
@@ -104,7 +104,7 @@ public class MenuApp {
 		System.out.println("/*******************************************************************************/");
 	}
 	/**
-	 * metodo para modificar la lista de coches (detenerlos)
+	 * Método para modificar la lista de coches (detenerlos)
 	 * @param listaCoches
 	 */
 	private static void detenerCoche(Coche[] listaCoches) {
@@ -114,7 +114,7 @@ public class MenuApp {
 	}
 	
 	/**
-	 * metodo para modificar la lista de camiones (detenerlos)
+	 * Método para modificar la lista de camiones (detenerlos)
 	 * @param listaCoches
 	 */
 	private static void detenerCamion(Camion[] listaCamiones) {
